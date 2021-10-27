@@ -1,4 +1,4 @@
-FROM oznu/homebridge:ubuntu@sha256:f52ced5e734b53a798cef630f690702e8b5f64f2c6c6ac95f1092c8762e2510f
+FROM oznu/homebridge:ubuntu@sha256:9999537b3f82f14db4e0daec62ad4b0aedb3d9216a471c62adc233c3aae506f0
 
 # This stage only exists so renovate will trigger an update
 # The specific version can't actually be pinned because it breaks multiplatform builds
